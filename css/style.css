@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*global css*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'poppins',sans-serif ;
+}
+input{
+	font-family: 'poppins',sans-serif ;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'poppins',sans-serif;
+}
+ .login-page{
+background: url(../image/img.jpg) no-repeat center;
+background-size: cover; /*it shows actual color*/
+height: 100vh;
+ }
+ .login-box{
+ 	background: #fff;
+ 	padding: 1px;
+ 	border: 2px solid #f7f7f7;
+ 	height: 550px;
+ 	width:400px;
+ 	margin: 30px auto 0; /* if margin 0px page in top-bottom*/
+ }
+.avatar img{
+width:275px ;
+/*height: 100px;*/
+display: block;
+margin: 20px auto 50px;
+}
+.login-box h2{
+	font-size: 18px ;
+	font-weight:600 ;
+	margin-bottom: 20px;
+}
+.login-form label{
+	font-weight:500 ;
+	display: block; /* inline block*/
+}
+.form-group{
+	margin-bottom: 10px;
+}
+.form-control{
+border: 1px solid #c3bfbf ;
+height:30px;
+width: 90%;
+outline: none; /*when click to login bar it shows black border.for avoiding it we use outline none*/
+padding: 0 5px;
+}
+.btn-login{
+	padding: 6px 40px;
+	font-size: 16px;
+	text-transform: capitalize;
+	background: #0069B5;
+	border: none;
+	color:  #fff;
+	transition:0.3s all ease-in-out ;
+}
+.btn-login:hover{
+	background: #3ca4dd;
+	cursor: pointer;
+}
+.action-link{
+padding: 20px 0 0;
+}
+.action-link ul li{
+	list-style: none;
+	line-height: 28px;
+}
+.action-link ul li a{
+	color: #0069B5;
+	transition:0.3s all ease-in-out ;
+}
+.action-link ul li a:hover{
+	padding-left: 5px;
+}
+a{
+	text-decoration: none;
+}
